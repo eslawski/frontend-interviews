@@ -4,7 +4,8 @@ const extractSass = new ExtractTextPlugin("[name]");
 
 module.exports = {
     entry: {
-        "dist/css/my-lil-jstor.css": "./scss/my-lil-jstor.scss"
+        "dist/css/my-lil-jstor.css": "./scss/my-lil-jstor.scss",
+        "dist/js/my-lil-jstor.js": "./js/my-lil-jstor.js"
     },
     module: {
         rules: [
@@ -36,6 +37,9 @@ module.exports = {
                 loader: "url-loader?name=./dist/fonts/[hash].[ext]"
             }
         ]
+    },
+    externals: {
+        jquery: "jQuery"
     },
     output: {
         filename: "[name]"
