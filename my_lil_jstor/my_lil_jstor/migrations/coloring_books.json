@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Test",
+    "description": "Test coloring book",
+    "image_name": "jstor-logo.png",
+    "pub_date": "2017-10-04T15:14:10Z"
+  },
+  {
+    "title": "Test 2",
+    "description": "Test 2",
+    "image_name": "jstor-logo.png",
+    "pub_date": "2017-10-04T15:14:25Z"
+  }
+]
