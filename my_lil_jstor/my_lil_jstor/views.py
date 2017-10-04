@@ -1,9 +1,10 @@
 from django.shortcuts import get_object_or_404, render
 
-from .models import ColoringBook
+from .services import get_coloring_book
+
 
 def coloring_books(request, book_id):
-    book = get_object_or_404(ColoringBook, pk=book_id)
+    book = get_coloring_book(book_id)
     context = {
         'book': book
     }

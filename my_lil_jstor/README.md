@@ -17,8 +17,18 @@ try to add the new features requested from the product owner.
 
 ## Tasks
 
-Below are 4 stories to complete ahead of the interview. Please feel free to create test cases as necessary. We will go 
+Below are some tasks to complete ahead of the interview. Please feel free to create test cases as necessary. We will go
 over the code with you to discuss design choices and ask questions. 
+
+### Something is Broken!
+
+We have several coloring book pages ready for our users, but there appears to be a problem with the page.
+Navigate to the homepage and click on the "featured book" to see the problem. We are pretty sure
+that all the code that is needed to fix the problem exists in the repo already, so maybe we just aren't
+calling it where we should be...
+
+Success Criteria:
+* Users are able to see Coloring Book details again
 
 ### Likes
 
