@@ -1,8 +1,11 @@
-from django.http import HttpResponse
-from django.template import loader
+from django.shortcuts import get_object_or_404, render
 
-def index(request):
-    template = loader.get_template('coloring_book_view.html')
-    context = {}
+from .models import ColoringBook
 
-    return HttpResponse(template.render(context, request))
+def coloring_books(request, book_id):
+    book = get_object_or_404(ColoringBook, pk=book_id)
+    context = {
+        'book': book
+    }
+
+    return render(request, 'coloring_book_view.html', context)

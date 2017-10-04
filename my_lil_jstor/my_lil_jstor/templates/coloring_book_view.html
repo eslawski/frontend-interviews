@@ -3,7 +3,11 @@
 
 </head>
 <body>
-    <h1>Coloring Book</h1>
+    <h1>{{ book.title }}</h1>
+    <img src="/static/images/{{ book.image_name }}">
+
+    <h2>{{ book.description }}</h2>
+    <div>{{ book.pub_date }}</div>
 
 </body>
 </html>
