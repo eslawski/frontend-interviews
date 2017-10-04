@@ -1,14 +1,32 @@
 [
   {
-    "title": "Test",
-    "description": "Test coloring book",
-    "image_name": "jstor-logo.png",
+    "title": "JSTOR Legacy Logo",
+    "description": "Filled with 1000 copies of the old logo",
+    "image_name": "book1.jpg",
     "pub_date": "2017-10-04T15:14:10Z"
   },
   {
-    "title": "Test 2",
-    "description": "Test 2",
-    "image_name": "jstor-logo.png",
+    "title": "PUPPIES!!!",
+    "description": "Color these canines carefully",
+    "image_name": "book2.jpg",
     "pub_date": "2017-10-04T15:14:25Z"
+  },
+  {
+    "title": "Birds Book v2",
+    "description": "Captioned by Alfred Hitchcock",
+    "image_name": "book3.jpg",
+    "pub_date": "2017-10-04T15:18:25Z"
+  },
+  {
+    "title": "Words of Love",
+    "description": "Tears of joy will blot your drawings",
+    "image_name": "book4.jpg",
+    "pub_date": "2017-10-04T15:19:25Z"
+  },
+  {
+    "title": "Choir Caricatures",
+    "description": "Color these cartoony contraltos",
+    "image_name": "book5.jpg",
+    "pub_date": "2017-10-04T15:20:25Z"
   }
 ]

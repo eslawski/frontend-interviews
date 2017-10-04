@@ -8,13 +8,13 @@
 </head>
 <body>
 
-<div>
-    {% include "nav.html" %}
+{% include "nav.html" %}
 
-    <div class="row">
-        {% block content %}{% endblock %}
-    </div>
+<div class="row content">
+    {% block content %}{% endblock %}
 </div>
+
+{% include "footer.html" %}
 
 <script type="text/javascript" src="/static/dist/js/my-lil-jstor.js"></script>
 </body>

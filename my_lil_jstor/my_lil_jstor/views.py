@@ -10,3 +10,7 @@ def coloring_books(request, book_id):
     }
 
     return render(request, 'coloring_book_view.html', context)
+
+
+def home(request):
+    return render(request, 'home.html')

@@ -1,6 +1,12 @@
 @import "bonsai/scss/global";
 @include bonsai;
 
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .nav {
   border-top: none;
@@ -8,4 +14,23 @@
   .logo {
     vertical-align: bottom;
   }
+}
+
+.content {
+  min-height: 500px;
+}
+
+.home {
+  @include background-cover;
+
+  background-image: url("/static/images/colors.jpg");
+  height: 300px;
+  width: 100%;
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    padding-top: 120px;
+  }
+
 }
