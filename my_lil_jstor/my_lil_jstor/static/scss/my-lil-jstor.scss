@@ -1,2 +1,11 @@
 @import "bonsai/scss/global";
 @include bonsai;
+
+
+.nav {
+  border-top: none;
+
+  .logo {
+    vertical-align: bottom;
+  }
+}
