@@ -13,7 +13,14 @@ def coloring_books(request, book_id):
 
 
 def home(request):
-    return render(request, 'home.html')
+    book = get_coloring_book(3)
+    context = {
+        'book': book
+    }
+
+    return render(request, 'home.html', context)
+
 
 def purchase(request):
+
     return render(request, 'purchase.html')

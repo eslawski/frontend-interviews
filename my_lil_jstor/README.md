@@ -30,6 +30,15 @@ calling it where we should be...
 Success Criteria:
 * Users are able to see Coloring Book details again
 
+### Browse
+
+We need a browse page so all our lil' JSTOR users can see the various coloring books on the site.
+
+Success Criteria
+* Users can see all the coloring books we have available to read
+* Users can see the image, title and description for each book
+* Clicking on a book image or title will go to the book details page
+
 ### Likes
 
 We want the ability for users to give feedback about the title by posting a "Like" to a book. 
@@ -40,16 +49,6 @@ Success Criteria
 * User is able to 'Like' a book 
 * User can see how many 'Likes' a book currently has
 * User is prevented from re-liking a story if they are using the same browser
-
-
-### Browse
-
-We need a browse page so all our lil' JSTOR users can see the various coloring books on the site.
-
-Success Criteria
-* Users can see all the coloring books we have available to read
-* Users can see the image, title and description for each book
-* Clicking on a book image or title will go to the book details page
 
 
 ### User Comments

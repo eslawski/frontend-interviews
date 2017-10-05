@@ -21,16 +21,20 @@
 }
 
 .home {
-  @include background-cover;
-
-  background-image: url("/static/images/colors.jpg");
-  height: 400px;
   width: 100%;
 
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 100%;
-    padding-top: 160px;
+  .hero {
+    @include background-cover;
+
+    padding: 0;
+    background-image: url("/static/images/colors.jpg");
+    height: 300px;
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      padding-top: 120px;
+    }
   }
 }
 
