@@ -22,6 +22,7 @@ try to add the new features requested from the product owner.
 
 ## Setup 
 
+### Python
 My Lil' JSTOR is written in python and utilizes the [django framework](https://www.djangoproject.com/).
 The [django installation guide](https://docs.djangoproject.com/en/1.11/intro/install/) provides a detailed guide 
 for creating the necessary environment.
@@ -38,7 +39,8 @@ To start the My Lil' JSTOR server
 python manage.py runserver
 ```
 
-Javascript and CSS live in the `my_lil_jstor/static/` directory and can be built with webpack.
+### Javascript & SASS
+Javascript and SASS live in the `my_lil_jstor/static/` directory and can be built with webpack.
 
 To install the necessary dependencies
 ```
