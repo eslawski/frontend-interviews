@@ -1,3 +1,16 @@
+# Technical Exercise Goals
+
+This exercise is not meant to test how fast you get to solutions, but to see what your thought process
+is when tackling them. Writing code that represents your best practices is more important than writing
+code that works and fulfils the success criteria. Several developers at JSTOR will be available via the
+Slack room that you have been invited to in order to support questions that you may have along the way.
+
+Please fork the repo to get started and when you think you are finished, issue a pull request. Preferably
+this will be done before your in-person interview so that we can go over the code and start a dialog with
+you about it when you are here.
+
+Thank you and we hope that you find this exercise fun and challenging. :)
+
 # My Lil' JSTOR
 
 My Lil' JSTOR is a great product we are planning on rolling out to our younger audience. On the site, a user can
@@ -5,6 +18,7 @@ purchase coloring books from our collection for a flat rate of $5. The applicati
 is in need of a few updates before we can officially launch. Luckily the developers that created the app left us a 
 few instructions to get started. Check out the setup steps to see if you can get the app going and 
 try to add the new features requested from the product owner. 
+
 
 ## Setup 
 
