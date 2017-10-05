@@ -21,6 +21,9 @@ def home(request):
     return render(request, 'home.html', context)
 
 
-def purchase(request):
-
-    return render(request, 'purchase.html')
+def purchase(request, book_id):
+    book = get_coloring_book(book_id)
+    context = {
+        'book': book
+    }
+    return render(request, 'purchase.html', context)
