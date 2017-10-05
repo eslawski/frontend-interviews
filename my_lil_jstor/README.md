@@ -112,9 +112,9 @@ Success Criteria
 
 ### Discounts
 
-We would love to offer discounts to our most active users. Currently, each coloring book is $5 and we can discounts 
-offer discounts of $.25 for every like and $.50 comment. The minimum price we can offer for each book is $2.50. 
-On the book details page we needto show the updated price to the user. 
+We would love to offer discounts to our most active users. Currently, each coloring book is $5 and we can 
+offer discounts of $.25 off for every like and $.50 off for each comment. The minimum price we can offer for each book is $2.50. 
+On the book details page we need to show the updated price to the user. 
 
 Success Criteria
 * Discounts are: 
