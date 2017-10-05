@@ -30,7 +30,7 @@ for creating the necessary environment. Although not required, it may help to lo
 
 Once all dependencies are resolved, we can run some commands to initialize the application and start the server.
 
-To create a local sqlite with test data  
+To create a local SQLite database with test data
 ```
 python manage.py migrate
 ```
@@ -102,9 +102,9 @@ comments with the submitted fields on the book details page.
 
 Success Criteria
 * Users can submit a comment on the book details page
-* Name and comment are required before submitted form to server
-* Review of 1 - 5 is optional
-* We should be able to see old comments on the details page
+* Name and comment are required before submitting form to server
+* Review of 1 to 5 is optional
+* Users can see old comments on the details page
 
 
 ### Discounts
