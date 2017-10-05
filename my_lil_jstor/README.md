@@ -41,7 +41,10 @@ python manage.py runserver
 ```
 
 ### Javascript & SASS
-Javascript and SASS live in the `my_lil_jstor/static/` directory and can be built with webpack.
+Javascript and SASS live in the `my_lil_jstor/static/` directory and can be built with webpack. These assets are built
+using an in-house front end framework called Bonsai, which is based off of [Foundation](https://foundation.zurb.com/). 
+The [Bonsai Styleguide](https://www.jstor.org/styleguide) includes examples of various components and display helpers
+that may be useful when creating features.   
 
 To install the necessary dependencies
 ```
