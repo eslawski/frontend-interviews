@@ -1,0 +1,32 @@
+[
+  {
+    "title": "JSTOR Legacy Logo",
+    "description": "Filled with 1000 copies of the old logo",
+    "image_name": "book1.jpg",
+    "pub_date": "1995-05-14T12:00:00Z"
+  },
+  {
+    "title": "PUPPIES!",
+    "description": "Color these canines carefully",
+    "image_name": "book2.jpg",
+    "pub_date": "2001-01-01T05:45:00Z"
+  },
+  {
+    "title": "Birds Book v2",
+    "description": "Captioned by Alfred Hitchcock",
+    "image_name": "book3.jpg",
+    "pub_date": "2002-03-22T16:18:25Z"
+  },
+  {
+    "title": "Love Letters",
+    "description": "Heartfelt illustrations you can bring to life",
+    "image_name": "book4.jpg",
+    "pub_date": "2010-10-04T15:19:25Z"
+  },
+  {
+    "title": "Choir Caricatures",
+    "description": "Cartoony contraltos need some color",
+    "image_name": "book5.jpg",
+    "pub_date": "2017-09-17T05:20:25Z"
+  }
+]

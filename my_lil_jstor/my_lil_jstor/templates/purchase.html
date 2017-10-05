@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="purchase txtc">
+        <h1>Purchase successful</h1>
+        <h2>Thank you for purchasing {{ book.title }} for ${{ book.price }}!</h2>
+        <a class="button" href="{% url 'home' %}">Back to Home</a>
+    </div>
+{% endblock %}
