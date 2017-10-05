@@ -41,10 +41,13 @@ python manage.py runserver
 ```
 
 ### Javascript & SASS
-Javascript and SASS live in the `my_lil_jstor/static/` directory and can be built with webpack. These assets are built
-using an in-house front end framework called Bonsai, which is based off of [Foundation](https://foundation.zurb.com/). 
-The [Bonsai Styleguide](https://www.jstor.org/styleguide) includes examples of various components and display helpers
-that may be useful when creating features.   
+Javascript and SASS live in the `my_lil_jstor/static/` directory and can be built with 
+[webpack](https://webpack.github.io/), an npm package used for bundling code. This means you will have to download 
+and install [nodejs](https://nodejs.org/en/), which will also bring in npm. 
+
+These assets are built using an in-house front end framework called Bonsai, which is based off of 
+[Foundation](https://foundation.zurb.com/). The [Bonsai Styleguide](https://www.jstor.org/styleguide) includes 
+examples of various components and display helpers that may be useful when creating features.   
 
 To install the necessary dependencies
 ```
@@ -97,8 +100,8 @@ Success Criteria
 Our users love the coloring books and want to leave comments about how great they are. 
 We need to create a form on the coloring book details page to submit a new comment. 
 This form requires the name and comment section to be populated, and have an option to supply a rating of 1 to 5.
-Users should not be able to submit a comment to the server if the required fields are blank. We would like to print out the 
-comments with the submitted fields on the book details page.
+Users should not be able to submit a comment to the server if the required fields are blank. We would like to print out 
+the comments with the submitted fields on the book details page.
 
 Success Criteria
 * Users can submit a comment on the book details page
@@ -109,9 +112,9 @@ Success Criteria
 
 ### Discounts
 
-We would love to offer discounts to our most active users. Currently, each coloring book is $5 and we can discounts offer discounts of
-$.25 for every like and $.50 comment. The minimum price we can offer for each book is $2.50. On the book details page we need
-to show the updated price to the user. 
+We would love to offer discounts to our most active users. Currently, each coloring book is $5 and we can 
+offer discounts of $.25 off for every like and $.50 off for each comment. The minimum price we can offer for each book is $2.50. 
+On the book details page we need to show the updated price to the user. 
 
 Success Criteria
 * Discounts are: 
