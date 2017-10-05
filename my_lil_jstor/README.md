@@ -25,7 +25,8 @@ try to add the new features requested from the product owner.
 ### Python
 My Lil' JSTOR is written in python and utilizes the [django framework](https://www.djangoproject.com/).
 The [django installation guide](https://docs.djangoproject.com/en/1.11/intro/install/) provides a detailed guide 
-for creating the necessary environment.
+for creating the necessary environment. Although not required, it may help to load the project into 
+[PyCharm](https://www.jetbrains.com/pycharm/) to assist with seeing the overall project structure and running the app.
 
 Once all dependencies are resolved, we can run some commands to initialize the application and start the server.
 
