@@ -19,8 +19,8 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    url(r'^home/', views.home, name='home'),
     url(r'^coloringbook/(?P<book_id>[0-9]+)', views.coloring_books, name='coloring_books'),
     url(r'^purchase/(?P<book_id>[0-9]+)', views.purchase, name='purchase'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^', views.home, name='home'),
 ]
