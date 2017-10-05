@@ -23,8 +23,8 @@ try to add the new features requested from the product owner.
 ## Setup 
 
 ### Python
-My Lil' JSTOR is written in python and utilizes the [django framework](https://www.djangoproject.com/).
-The [django installation guide](https://docs.djangoproject.com/en/1.11/intro/install/) provides a detailed guide 
+My Lil' JSTOR is written in python and utilizes the [Django framework](https://www.djangoproject.com/).
+The [Django installation guide](https://docs.djangoproject.com/en/1.11/intro/install/) provides a detailed guide
 for creating the necessary environment. Although not required, it may help to load the project into 
 [PyCharm](https://www.jetbrains.com/pycharm/) to assist with seeing the overall project structure and running the app.
 
@@ -118,8 +118,4 @@ Success Criteria
     - $.25 per like
     - $.50 per comment
 * Minimum price per book is $2.50
-* Updated price is displayed on the page 
-
-
-
-
+* Updated price is displayed on the page
