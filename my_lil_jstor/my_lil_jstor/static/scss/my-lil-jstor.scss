@@ -24,13 +24,16 @@
   @include background-cover;
 
   background-image: url("/static/images/colors.jpg");
-  height: 300px;
+  height: 400px;
   width: 100%;
 
   .overlay {
     background-color: rgba(0, 0, 0, 0.4);
     height: 100%;
-    padding-top: 120px;
+    padding-top: 160px;
   }
+}
 
+.purchase {
+  width: 100%;
 }

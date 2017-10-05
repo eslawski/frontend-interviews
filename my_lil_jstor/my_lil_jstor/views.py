@@ -14,3 +14,6 @@ def coloring_books(request, book_id):
 
 def home(request):
     return render(request, 'home.html')
+
+def purchase(request):
+    return render(request, 'purchase.html')
