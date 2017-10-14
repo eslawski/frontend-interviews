@@ -1,7 +1,8 @@
 from django.shortcuts import render
-
+from django.http import JsonResponse
 from .services import get_coloring_book
 from .services import get_all_books
+from .services import like_book
 
 
 def coloring_books(request, book_id):
@@ -36,3 +37,10 @@ def browse(request):
         'books': books
     }
     return render(request, 'browse.html', context)
+
+def like(request):
+    book_id = request.POST.get('bookId')
+    current_likes = like_book(book_id)
+    return JsonResponse({
+        'likes': current_likes
+    })

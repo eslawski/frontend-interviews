@@ -16,6 +16,14 @@ def get_all_books():
     return book_dicts
 
 
+# Updates the like counter on the provided book and returns the new count
+def like_book(primary_key):
+    coloring_book = ColoringBook.objects.get(pk=primary_key)
+    coloring_book.likes = coloring_book.likes + 1
+    coloring_book.save()
+    return coloring_book.likes
+
+
 # Creates and returns a json object representing that can be
 # used in an html template
 def create_coloring_book_dict(coloring_book):
@@ -25,5 +33,6 @@ def create_coloring_book_dict(coloring_book):
         'description': coloring_book.description,
         'image_name': coloring_book.image_name,
         'pub_date': coloring_book.pub_date,
-        'price': coloring_book.price
+        'price': coloring_book.price,
+        'likes': coloring_book.likes
     }
