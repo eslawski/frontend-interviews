@@ -30,4 +30,28 @@ $( document ).ready(function() {
             }
         });
     };
+
+    $('#comment-form').submit(function() { // catch the form's submit event
+        $.ajax({ // create an AJAX call...
+            data: $(this).serialize(), // get the form data
+            type: $(this).attr('method'), // GET or POST
+            url: $(this).attr('action'), // the file to call
+            success: function(response) { // on success..
+                let comment = response.comment;
+                let media = $("<div>", {"class": "media comment"});
+                let mediaBody = $("<div>", {"class": "media-body"});
+                let h5 = $("<h5>", {"class": "mt-0"});
+
+                mediaBody.append(h5.append(comment.user)).append(comment.comment);
+                media.append(mediaBody);
+                $(".comments-section").prepend(media);
+                $('#comment-text-field').val("");
+                $('#user-text-field').val("");
+            },
+            error: function(e, x, r) { // on error..
+
+            }
+        });
+        return false;
+    });
 });

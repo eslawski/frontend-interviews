@@ -1,6 +1,6 @@
 from django.core.serializers import serialize
 
-from .models import ColoringBook
+from .models import ColoringBook, Comment
 
 
 def get_coloring_book(primary_key):
@@ -23,6 +23,31 @@ def like_book(primary_key):
     coloring_book.save()
     return coloring_book.likes
 
+
+def insert_comment(user, comment, bookId):
+    coloring_book = ColoringBook.objects.get(pk=bookId)
+    comment = Comment(user=user, book=coloring_book, comment=comment)
+    comment.save()
+    return create_comment_dic(comment)
+
+
+def get_comments(bookId):
+    if bookId == "":
+        comments = Comment.object.all()
+    else:
+        comments = Comment.objects.filter(book=bookId)
+    sorted_comments = sorted(comments, key=lambda k: k.id, reverse=True)
+    comments_dict = []
+    for comment in sorted_comments:
+        comments_dict.append(create_comment_dic(comment))
+    return comments_dict
+
+
+def create_comment_dic(comment):
+    return {
+        'user': comment.user,
+        'comment': comment.comment
+    }
 
 # Creates and returns a json object representing that can be
 # used in an html template
