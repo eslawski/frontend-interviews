@@ -41,3 +41,12 @@
 .purchase {
   width: 100%;
 }
+
+.book-collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.media-body {
+  align-self: center;
+}
