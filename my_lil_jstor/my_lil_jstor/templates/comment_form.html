@@ -1,7 +1,10 @@
+
+
 <form id="comment-form" action="comment" method="post">
     {% csrf_token %}
-    <input id="user-text-field" type="text" name="name" placeholder="Name">
-    <textarea id="comment-text-field" name="comment" placeholder="Enter comment"></textarea>
+    <input id="user-text-field" type="text" name="name" placeholder="Name" required>
+
+    <textarea id="comment-text-field" name="comment" placeholder="Enter comment" required></textarea>
     <input type="hidden" name="bookId" value="{{book.id}}">
-    <input type="submit" value="OK">
+    <input class="btn btn-success" type="submit" value="Add Comment">
 </form>
